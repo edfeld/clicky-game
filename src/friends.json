@@ -3,48 +3,36 @@
     "id": 1,
     "name": "Batman",
     "image": "https://i.pinimg.com/originals/dc/27/a6/dc27a6b4d8526b386d95e878206fff90.png",
-    "occupation": "Ladies Man",
-    "location": "Aron City",
     "isClicked": 0
   },
   {
     "id": 2,
     "name": "The Flash",
     "image": "https://i.pinimg.com/originals/94/77/da/9477dad8b2832b2c1557b14e8290e5c0.png",
-    "occupation": "Superhero",
-    "location": "California",
     "isClicked": 0
   },
   {
     "id": 3,
     "name": "blossom",
     "image": "http://i.cdn.turner.com/v5cache/CARTOON/site/Images/i23/ppg_blossom_174x252.png",
-    "occupation": "Superhero",
-    "location": "O-Town, California",
     "isClicked": 0
   },
   {
     "id": 4,
     "name": "Bubbles",
     "image": "http://img.time2draw.com/2014/09/Bubbles-From-PowerPuff-Girls-Animates-Series-Drawing-Manual-final-step-215x382.png",
-    "occupation": "Superhero",
-    "location": "Earth",
     "isClicked": 0
   },
   {
     "id": 5,
     "name": "Buttercup",
     "image": "https://vignette.wikia.nocookie.net/fictional-battle-omniverse/images/c/c8/Buttercup_The_Powerpuff_Girls.png/revision/latest?cb=20160412072700",
-    "occupation": "superhero",
-    "location": "Metropolis",
     "isClicked": 0
   },
 {
   "id": 6,
     "name": "Snagglepuss",
     "image": "http://upload.wikimedia.org/wikipedia/en/9/9e/Snagglepuss.png",
-    "occupation": "Vagrancy",
-    "location": "Just leaving - stage left",
     "isClicked": 0
   
 },
@@ -52,48 +40,36 @@
   "id": 7,
     "name": "Lippy the Lion",
     "image": "https://fanart.tv/fanart/tv/72766/characterart/lippy-the-lion-58e8dcde42aaa.png",
-    "occupation": "Trickster",
-    "location": "city dump",
     "isClicked": 0
 },
 {
   "id": 8,
     "name": "The Tick",
     "image": "https://vignette.wikia.nocookie.net/yunas-princess-adventure/images/2/29/Tick.png/revision/latest?cb=20170917044355",
-    "occupation": "Trickster",
-    "location": "city dump",
     "isClicked": 0
 },
 {
   "id": 9,
     "name": "Yogi Bear",
     "image": "https://upload.wikimedia.org/wikipedia/en/f/f0/Yogi_Bear_Yogi_Bear.png",
-    "occupation": "All round do-gooder",
-    "location": "Jelly Stone Park",
     "isClicked": 0
 },
 {
   "id": 10,
     "name": "Jimmy Neurton",
     "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/5/57/Jimmy_Neutron.png/revision/latest?cb=20151230190320",
-    "occupation": "All round do-gooder",
-    "location": "Anytown",
     "isClicked": 0
 },
 {
   "id": 11,
     "name": "Sheen Estevez",
     "image": "https://static.tvtropes.org/pmwiki/pub/images/sheen_jimmy_neutron.png",
-    "occupation": "All round do-gooder",
-    "location": "Anytown",
     "isClicked": 0
 },
 {
   "id": 12,
     "name": "Cindy Vortex",
     "image": "https://vignette.wikia.nocookie.net/nickelodeon/images/7/78/Cindy_Show.png/revision/latest?cb=20170127200659",
-    "occupation": "All round do-gooder",
-    "location": "Anytown",
     "isClicked": 0
 }
 
