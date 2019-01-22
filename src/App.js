@@ -19,8 +19,6 @@ class App extends Component {
 
     }
   }
-  // state = {
-  // }
 
   //filter this.state.friends for friends with an id not equal to the id being removed
   arrayShuffle = function(arr) {
@@ -83,7 +81,7 @@ class App extends Component {
     this.setState({ friends: newfriends });
     // console.log("hitting the remove function, friends: ", this.state.friends);
 
-  }
+  }  // End of processGuess
 
   render() {
     return (
