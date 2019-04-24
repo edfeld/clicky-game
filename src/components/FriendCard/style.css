@@ -51,5 +51,8 @@
   width: 305px; */
   box-shadow: 0 6px 26px #999, 0 3px 6px #999;
   cursor: pointer;
+  opacity: 0.75;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
 }
+
 
