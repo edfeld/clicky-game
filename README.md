@@ -2,11 +2,19 @@
 
 ![ClickyGame](https://user-images.githubusercontent.com/18557337/56632577-49c99100-660f-11e9-8cc5-ab77594ee0a9.png)
 
-## A memory game -- Test your memorys
+## A memory game -- Test your memory
 
-_Technology:_
+_Technologies:_
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+-JavaScript
+
+- Node.js
+
+- HTML
+
+- CSS
 
 1. The object of this memory game is to click on each image only once and click on all 12 images in succession without forgetting which images have already been clicked.
 
