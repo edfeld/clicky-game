@@ -18,6 +18,11 @@ class App extends Component {
       gameStatus: "Click an image to begin"
 
     }
+
+    // Shuffle all the friends again
+    console.log("----> Game is shuffling");
+    let newfriends = this.arrayShuffle(friends)
+    this.setState({ friends: newfriends });
   }
 
   //filter this.state.friends for friends with an id not equal to the id being removed
@@ -26,11 +31,10 @@ class App extends Component {
      
     for (var i = output.length-1; i >=0; i--) {
      
-        var randomIndex = Math.floor(Math.random()*(i+1)); 
-        var itemAtIndex = output[randomIndex]; 
-         
-        output[randomIndex] = output[i]; 
-        output[i] = itemAtIndex;
+        var randomIndex = Math.floor(Math.random()*(i+1)); // generate rand from 0 to arr.length
+        var itemAtIndex = output[randomIndex]; // fill itematIndex as a temp field
+        output[randomIndex] = output[i]; // Here we are moving one arr elem from one place to another 
+        output[i] = itemAtIndex;  // above three lines is a swap 
     }
     return output;
   }
@@ -71,41 +75,35 @@ class App extends Component {
           friend.isClicked = 0;
         });
         this.updateGameStatus("Wrong Guess!");
-        console.log("GameStatus: ", this.state.gameStatus)
+        // console.log("GameStatus: ", this.state.gameStatus)
+        setTimeout(function () {this.updateGameStatus("Start New Game")}.bind(this), 2000);
       }
     }
     // Shuffle all the friends again
+    console.log("----> Game is shuffling");
     let newfriends = this.arrayShuffle(friends)
-    // const friends = this.state.friends.filter(friend => friend.id !== id);
-    // update the state with friends
     this.setState({ friends: newfriends });
-    // console.log("hitting the remove function, friends: ", this.state.friends);
 
   }  // End of processGuess
 
   render() {
     return (
     <Wrapper
-    gameStatus={this.state.gameStatus}
-    intScore={this.state.intScore}
-    intTopScore={this.state.intTopScore}
-    type={(this.state.gameStatus === "Wrong Guess!")? "danger": null}
-            >
-        {this.state.friends.map(friend=>(
-          <FriendCard 
-          removeFriend={this.removeFriend}
+      gameStatus={this.state.gameStatus}
+      intScore={this.state.intScore}
+      intTopScore={this.state.intTopScore}
+      type={(this.state.gameStatus === "Wrong Guess!")? "danger": (this.state.gameStatus === "Start New Game")? "info": null}
+      >
+      {this.state.friends.map(friend=>(
+        <FriendCard 
           processGuess={this.processGuess}
           id={friend.id}
           key={friend.id}
           image={friend.image}
-          /> 
-          )
-        )
-        
-      }
-       
-       <Footer />
-       </Wrapper>
+        /> 
+      ))}
+      <Footer />
+    </Wrapper>
     )
   }
 }
