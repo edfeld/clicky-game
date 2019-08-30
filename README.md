@@ -22,7 +22,7 @@ _Technologies:_
 
 3. The application keeps track of the user's score. The user's score is incremented when clicking an image for the first time. The user's score is reset to 0 if they click the same image more than once.
 
-4. Every time an image is clicked, the images rendered to the page and shuffle themselves in a random order.
+4. Every time an card image is clicked, the images rendered to the page and shuffle themselves in a random order.
 
 5. Once the user's score is reset after an incorrect guess, the game is restarted.
 
