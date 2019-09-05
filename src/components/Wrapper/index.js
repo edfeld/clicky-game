@@ -23,9 +23,7 @@ class Wrapper extends React.Component {
     </nav>
     <div className="jumbo-container mx-0">
       <div className="jumbotron bg-dark text-light">
-        {/* <h4 className="jumbo-header text-center">The Clicky Game</h4> */}
         <h4 className="jumbo-header text-center">Click on an image to earn points, but don't click on any more than once!</h4>
-        {/* <h4 className="text-center">Click on an image to earn points, but don't click on any more than once!</h4> */}
         
       </div>
     </div>
@@ -34,25 +32,6 @@ class Wrapper extends React.Component {
   }
 }
 
-// function Wrapper(props) {
-//   return <div>
-//     <nav className="navbar navbar-expand-lg">
-//     <ul className="navbar-nav mr-0">
-//       <li className="nav-item"><a className="navbar-brand" href="/">Clicky Game</a></li>
-//       <li className="nav-other">Click an image to begin</li>
-//       <li className="nav-other">Score {props.intScore} | Top Score {props.intTopScore}</li>
-//     </ul>
-//     </nav>
-//     <div className="jumbo-container mx-0">
-//       <div className="jumbotron bg-dark text-light">
-//         <h1 className="jumbo-header text-center">The Clicky Game</h1>
-//         <h4 className="text-center">Click on an image to earn points, but don't click on any more than once!</h4>
-        
-//       </div>
-    
-//     </div>
-//     <div className="wrapper">{props.children}</div>;
-//   </div>
-// }
+
 
 export default Wrapper;
